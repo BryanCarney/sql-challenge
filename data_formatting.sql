@@ -10,7 +10,7 @@ CREATE TABLE employees_temp (
     FOREIGN KEY (emp_title_id) REFERENCES titles(title_id)
 );
 
-INSERT INTO employees (emp_no, emp_title_id, birth_date, first_name, last_name,sex,hire_date)
+INSERT INTO employees (emp_no, emp_title_id, birth_date, first_name, last_name, sex, hire_date)
 SELECT 
 	et.emp_no, 
 	et.emp_title_id, 
