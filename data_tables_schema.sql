@@ -8,7 +8,7 @@ CREATE TABLE titles (
     title VARCHAR(20) NOT NULL
 );
 
---intial import of data was unsuccessful, once date parameters were reformatted the file was able to be loaded successfully
+-- intial import of data was unsuccessful, once date parameters were reformatted the file was able to be loaded successfully
 CREATE TABLE employees (
     emp_no INTEGER PRIMARY KEY,
     emp_title_id CHAR(5) NOT NULL,
