@@ -76,7 +76,7 @@ Table Schema created for each of the six CSV files
 
 # Data Reformatting 
 
-Due to formatting issues with importing the employees file, a temporary table was created in order to successfully import the data to reformat the date into the correct format. **This step was uncovered based on a question of data formatting asked during class**
+Due to formatting issues with importing the employees file, a temporary table was created in order to successfully import the data.  Specifically to reformat the date into the correct format. **This step was uncovered based on a question of data formatting asked during class**
 
     CREATE TABLE employees_temp (
         emp_no INTEGER PRIMARY KEY,
